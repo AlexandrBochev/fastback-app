@@ -18,11 +18,3 @@ export interface Site {
 export interface WebViewComponentProps {
   url: string
 }
-
-export interface CopyrightProps {
-  url: string
-}
-
-export interface SpinnerProps {
-  size?: string
-}
