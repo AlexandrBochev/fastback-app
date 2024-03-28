@@ -12,7 +12,7 @@ export const handleLogIn = (email:string, navigation:Navigation) => {
 
 export const postEmail = async (email: string) => {
   try {
-    await fetch(SITES_URL, {
+    await fetch(POST_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
